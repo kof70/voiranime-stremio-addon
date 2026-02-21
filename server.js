@@ -6,7 +6,7 @@ import crypto from "crypto";
 import { createRequire } from "module";
 
 const BASE_URL = "https://v6.voiranime.com";
-const PORT = Number(process.env.PORT || 8000);
+const PORT = Number(process.env.PORT || 9000);
 const CACHE_DIR = process.env.CACHE_DIR || "/tmp/voiranime-stremio-cache";
 const { addonBuilder } = sdk;
 const require = createRequire(import.meta.url);
